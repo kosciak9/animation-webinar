@@ -1,0 +1,69 @@
+#+title: Animacje w React
+
+#+REVEAL_CONTROLS: false
+#+REVEAL_MARGIN: 0
+#+REVEAL_THEME: solarized
+#+REVEAL_HLEVEL: 2
+#+REVEAL_EXTRA_CSS: ./local.css
+
+#+OPTIONS: toc:nil,reveal_title_slide:nil
+
+* Animacje w React
+
+#+REVEAL_HTML: <div id="AnimatedMoon">🌒<div id="AnimatedWrapper"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/GameStop.svg/1200px-GameStop.svg.png" id="AnimatedGamestop"></img></div><div id="AnimatedRocket">🚀</div></div>
+
+Franciszek Madej
+
+* plan
+
+- kim jestem?
+- kiedy i dlaczego używać animacji?
+- old-school animowanie
+- ruchome komponenty
+- *NextJS* - animacje przy zmianie stron
+
+* kim jestem?
+
+- praca w kilku różnych miejscach
+- obecnie własna działalność
+- skończone studia /Informatyki Społecznej/
+- wiedza z zakresu UX
+
+* młotek 🔨
+
+#+BEGIN_QUOTE
+Gdy twoim jedynym narzędziem jest młotek, wszystko zaczyna ci przypominać gwoździe.
+-- Abraham Maslow, _The Psychology of Science: A Reconnaissance_
+#+END_QUOTE
+
+* co nie jest gwoździem
+
+- _nie_ wtedy, gdy opóźnią dostęp do informacji
+- _nie_ tylko dlatego, że jest ładnie
+
+* co jest? 🔩
+
+_informacja zwrotna dla użytkownika_
+
+przykłady:
+
+- ślepota na zmianę (wyróżnienie pojawiającego się elementu)
+- nadanie kierunku (nawigacja)
+
+* old school animowanie
+
+- magicznie banalne ~transition~
+- skomplikowanie interesujące ~keyframes~
+- pytania!
+
+* ruchome komponenty
+
+- przycisk koszyka (~use-spring~)
+- galeria zdjęć (~use-transition~)
+- pytania! (~use-prowadzący~)
+
+* animowany Client-side routing w NextJS
+
+- tak naprawdę coś co już potrafimy, czyli ~use-transition~ :)
+
+* pytania!

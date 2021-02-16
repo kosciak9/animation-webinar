@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Animacje w React</title>
+<meta name="author" content="Franciszek Madej"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="/home/kosciak/.emacs.d/.local/straight/build-28.0.50/revealjs/dist/reveal.css"/>
+
+<link rel="stylesheet" href="/home/kosciak/.emacs.d/.local/straight/build-28.0.50/revealjs/dist/theme/solarized.css" id="theme"/>
+
+<link rel="stylesheet" href="./local.css"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1 class="title">Animacje w React</h1><h2 class="author">Franciszek Madej</h2><p class="date">Created: 2021-02-16 Tue 19:44</p>
+</section>
+
+<section>
+<section id="slide-1">
+<h2 id="1"><span class="section-number-2">1</span> Animacje w React</h2>
+<div id="AnimatedMoon">🌒<div id="AnimatedWrapper"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/GameStop.svg/1200px-GameStop.svg.png" id="AnimatedGamestop"></img></div><div id="AnimatedRocket">🚀</div></div>
+
+<p>
+Franciszek Madej
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-2">
+<h2 id="2"><span class="section-number-2">2</span> plan</h2>
+<ul>
+<li>kim jestem?</li>
+<li>kiedy i dlaczego używać animacji?</li>
+<li>old-school animowanie</li>
+<li>ruchome komponenty</li>
+<li><b>NextJS</b> - animacje przy zmianie stron</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-3">
+<h2 id="3"><span class="section-number-2">3</span> kim jestem?</h2>
+<ul>
+<li>praca w kilku różnych miejscach</li>
+<li>obecnie własna działalność</li>
+<li>skończone studia <i>Informatyki Społecznej</i></li>
+<li>wiedza z zakresu UX</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-4">
+<h2 id="4"><span class="section-number-2">4</span> młotek 🔨</h2>
+<blockquote>
+<p>
+Gdy twoim jedynym narzędziem jest młotek, wszystko zaczyna ci przypominać gwoździe.
+&#x2013; Abraham Maslow, <span class="underline">The Psychology of Science: A Reconnaissance</span>
+</p>
+</blockquote>
+
+</section>
+</section>
+<section>
+<section id="slide-5">
+<h2 id="5"><span class="section-number-2">5</span> co nie jest gwoździem</h2>
+<ul>
+<li><span class="underline">nie</span> wtedy, gdy opóźnią dostęp do informacji</li>
+<li><span class="underline">nie</span> tylko dlatego, że jest ładnie</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-6">
+<h2 id="6"><span class="section-number-2">6</span> co jest? 🔩</h2>
+<p>
+<span class="underline">informacja zwrotna dla użytkownika</span>
+</p>
+
+<p>
+przykłady:
+</p>
+
+<ul>
+<li>ślepota na zmianę (wyróżnienie pojawiającego się elementu)</li>
+<li>nadanie kierunku (nawigacja)</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-7">
+<h2 id="7"><span class="section-number-2">7</span> old school animowanie</h2>
+<ul>
+<li>magicznie banalne <code>transition</code></li>
+<li>skomplikowanie interesujące <code>keyframes</code></li>
+<li>pytania!</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-8">
+<h2 id="8"><span class="section-number-2">8</span> ruchome komponenty</h2>
+<ul>
+<li>przycisk koszyka (<code>use-spring</code>)</li>
+<li>galeria zdjęć (<code>use-transition</code>)</li>
+<li>pytania! (<code>use-prowadzący</code>)</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-9">
+<h2 id="9"><span class="section-number-2">9</span> animowany Client-side routing w NextJS</h2>
+<ul>
+<li>tak naprawdę coś co już potrafimy, czyli <code>use-transition</code> :)</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-10">
+<h2 id="10"><span class="section-number-2">10</span> pytania!</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="/home/kosciak/.emacs.d/.local/straight/build-28.0.50/revealjs/dist/reveal.js"></script>
+<script src="/home/kosciak/.emacs.d/.local/straight/build-28.0.50/revealjs/plugin/markdown/markdown.js"></script>
+<script src="/home/kosciak/.emacs.d/.local/straight/build-28.0.50/revealjs/plugin/notes/notes.js"></script>
+<script src="/home/kosciak/.emacs.d/.local/straight/build-28.0.50/revealjs/plugin/search/search.js"></script>
+<script src="/home/kosciak/.emacs.d/.local/straight/build-28.0.50/revealjs/plugin/zoom/zoom.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+
+overview: true,
+margin: 0.00,
+
+transition: 'convex',
+transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>
