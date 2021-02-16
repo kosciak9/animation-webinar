@@ -1,14 +1,11 @@
-import Head from 'next/head'
+import Head from "next/head";
+import { Heading, Text } from "@chakra-ui/react";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      hello world
+      <Heading>Junior / Senior</Heading>
+      <Text>16.02.2021</Text>
     </>
-  )
+  );
 }
